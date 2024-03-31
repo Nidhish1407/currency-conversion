@@ -1,15 +1,15 @@
-============================
+
 CURRENCY CONVERSION SERVICE
-============================
+
 This project can also be run from command line 
 Only docker compose file is needed and docker desktop should be installed
 Run following command in terminal from file location of docker-compose.yaml
 
 docker-compose up
 
-======
+
 APIs
-======
+
 Currency Exchange Service
 - http://localhost:8765/currency-exchange/from/USD/to/INR
 
