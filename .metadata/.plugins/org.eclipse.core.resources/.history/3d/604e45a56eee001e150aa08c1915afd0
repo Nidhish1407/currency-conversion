@@ -1,0 +1,33 @@
+spring.application.name=currency-exchange
+spring.config.import=optional:configserver:http://localhost:8888
+server.port=8000
+
+#enable H2
+spring.datasource.url=jdbc:h2:mem:testdb 
+# /h2-console causing issue SB 3.2.3
+#spring.h2.console.enabled=true 
+#to run sql script as server start
+spring.jpa.defer-datasource-initialization=true 
+# show sql queries in console
+spring.jpa.show-sql=true
+
+eureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka
+
+#Retry
+resilience4j.retry.instances.sample-api.maxAttempts=5 
+resilience4j.retry.instances.sample-api.waitDuration=1s
+resilience4j.retry.instances.sample-api.enable-exponential-backoff=true
+
+#RateLimiter
+resilience4j.ratelimiter.instances.default.limit-for-period=2
+resilience4j.ratelimiter.instances.default.limit-refresh-period=10s
+
+#Bulkhead
+resilience4j.bulkhead.instances.sample-api.maxConcurrentCalls=10
+
+#Zipkin Tracing
+management.tracing.sampling.probability=1.0 
+logging.pattern.level=%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]
+
+
+#http://localhost:8000/currency-exchange/from/USD/to/INR

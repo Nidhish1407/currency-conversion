@@ -1,0 +1,87 @@
+version: '4.28.0'
+
+services:
+
+
+  currency-exchange:
+    image: nidhish1407/currency-currency-exchange-service:0.0.1-SNAPSHOT
+    deploy:
+      resources: 
+          limits: 
+             memory:  700m
+    ports:
+      - "8000:8000"
+    networks:
+      - currency-network
+    depends_on:
+      - naming-server
+    environment:
+      EUREKA.CLIENT.SERVICEURL.DEFAULTZONE: http://naming-server:8761/eureka 
+      EUREKA.INSTANCE.PREFERIPADDRESS: "true"
+      EUREKA.INSTANCE.HOSTNAME: localhost 
+      MANAGEMENT.ZIPKIN.TRACING.ENDPOINT: http://zipkin-server:9411/api/v2/spans
+      
+      
+  currency-conversion:
+    image: nidhish1407/currency-currency-conversion-service:0.0.1-SNAPSHOT
+    deploy:
+      resources: 
+          limits: 
+             memory:  700m
+    ports:
+      - "8100:8100"
+    networks:
+      - currency-network
+    depends_on:
+      - naming-server
+    environment:
+      EUREKA.CLIENT.SERVICEURL.DEFAULTZONE: http://naming-server:8761/eureka 
+      EUREKA.INSTANCE.PREFERIPADDRESS: "true"  
+      EUREKA.INSTANCE.HOSTNAME: localhost 
+      MANAGEMENT.ZIPKIN.TRACING.ENDPOINT: http://zipkin-server:9411/api/v2/spans
+  
+  
+  api-gateway:
+    image: nidhish1407/currency-api-gateway:0.0.1-SNAPSHOT
+    deploy:
+      resources: 
+          limits: 
+             memory:  700m
+    ports:
+      - "8765:8765"
+    networks:
+      - currency-network
+    depends_on:
+      - naming-server
+    environment:
+      EUREKA.CLIENT.SERVICEURL.DEFAULTZONE: http://naming-server:8761/eureka 
+      EUREKA.INSTANCE.PREFERIPADDRESS: "true"  
+      EUREKA.INSTANCE.HOSTNAME: localhost
+      MANAGEMENT.ZIPKIN.TRACING.ENDPOINT: http://zipkin-server:9411/api/v2/spans
+      
+      
+  naming-server:
+    image: nidhish1407/currency-naming-server:0.0.1-SNAPSHOT
+    deploy:
+      resources: 
+          limits: 
+             memory:  700m
+    ports:
+      - "8761:8761"
+    networks:
+      - currency-network
+        
+  zipkin-server:
+    image: openzipkin/zipkin:2.23  
+    deploy:
+      resources: 
+          limits: 
+             memory:  300m
+    ports:
+      - "9411:9411"
+    networks:
+      - currency-network
+ 
+networks:
+  currency-network:
+    

@@ -1,0 +1,291 @@
+2024-03-28 17:17:44,396 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-03-28 17:19:03,656 [Worker-12: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nidhish.microservices:currency-conversion-service:0.0.1-SNAPSHOT @ D:\Development\Eclipse\currency-conversion\currency-conversion-service\pom.xml.
+2024-03-28 17:19:05,229 [Worker-12: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nidhish.microservices:currency-exchange-service:0.0.1-SNAPSHOT @ D:\Development\Eclipse\currency-conversion\currency-exchange-service\pom.xml.
+2024-03-28 17:19:05,707 [Worker-12: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nidhish.microservices:naming-server:0.0.1-SNAPSHOT @ D:\Development\Eclipse\currency-conversion\naming-server\pom.xml.
+2024-03-28 17:19:06,222 [Worker-12: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nidhish.microservices:api-gateway:0.0.1-SNAPSHOT @ D:\Development\Eclipse\currency-conversion\api-gateway\pom.xml.
+2024-03-28 17:19:11,397 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/main/java
+2024-03-28 17:19:11,397 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2024-03-28 17:19:11,398 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2024-03-28 17:19:11,399 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/test/java
+2024-03-28 17:19:12,273 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /naming-server/src/main/java
+2024-03-28 17:19:12,273 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /naming-server/src/main/resources
+2024-03-28 17:19:12,274 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /naming-server/src/main/resources
+2024-03-28 17:19:12,275 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /naming-server/src/test/java
+2024-03-28 17:19:12,808 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /currency-conversion-service/src/main/java
+2024-03-28 17:19:12,809 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /currency-conversion-service/src/main/resources
+2024-03-28 17:19:12,809 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /currency-conversion-service/src/main/resources
+2024-03-28 17:19:12,810 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /currency-conversion-service/src/test/java
+2024-03-28 17:19:13,356 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /currency-exchange-service/src/main/java
+2024-03-28 17:19:13,356 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /currency-exchange-service/src/main/resources
+2024-03-28 17:19:13,357 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /currency-exchange-service/src/main/resources
+2024-03-28 17:19:13,358 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /currency-exchange-service/src/test/java
+2024-03-28 17:19:14,166 [Worker-12: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 4 project(s) in 15 sec
+2024-03-28 17:19:19,187 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-28 17:19:19,220 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 17:19:19,227 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\api-gateway\src\test\resources
+2024-03-28 17:19:21,605 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-28 17:19:21,608 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 17:19:21,611 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-conversion-service\src\test\resources
+2024-03-28 17:19:23,302 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-28 17:19:23,304 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-28 17:19:23,308 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-exchange-service\src\test\resources
+2024-03-28 17:19:24,769 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-28 17:19:24,782 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 17:19:24,785 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\naming-server\src\test\resources
+2024-03-28 17:20:33,917 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-03-28 17:36:22,274 [Worker-6: Launching ApiGatewayApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-28 17:36:22,319 [Worker-6: Launching ApiGatewayApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 17:36:22,324 [Worker-6: Launching ApiGatewayApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\api-gateway\src\test\resources
+2024-03-28 17:37:50,827 [Worker-17: Launching NamingServerApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-28 17:37:50,950 [Worker-17: Launching NamingServerApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 17:37:50,954 [Worker-17: Launching NamingServerApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\naming-server\src\test\resources
+2024-03-28 17:38:22,567 [Worker-16: Launching CurrencyConversionServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-28 17:38:22,592 [Worker-16: Launching CurrencyConversionServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 17:38:22,595 [Worker-16: Launching CurrencyConversionServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-conversion-service\src\test\resources
+2024-03-28 17:39:04,437 [Worker-17: Launching CurrencyExchangeServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-28 17:39:04,459 [Worker-17: Launching CurrencyExchangeServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-28 17:39:04,462 [Worker-17: Launching CurrencyExchangeServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-exchange-service\src\test\resources
+2024-03-28 18:01:31,738 [Worker-22: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nidhish.microservices:currency-exchange-service:0.0.1-SNAPSHOT @ D:\Development\Eclipse\currency-conversion\currency-exchange-service\pom.xml.
+2024-03-28 18:01:34,543 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 18:01:34,543 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 18:01:34,547 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-exchange-service\src\test\resources
+2024-03-28 18:02:47,544 [Worker-22: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nidhish.microservices:currency-exchange-service:0.0.1-SNAPSHOT @ D:\Development\Eclipse\currency-conversion\currency-exchange-service\pom.xml.
+2024-03-28 18:02:49,407 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 18:02:49,407 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 18:02:49,410 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-exchange-service\src\test\resources
+2024-03-28 18:30:00,082 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-03-28 18:33:39,369 [Worker-33: Launching currency-exchange-service] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Development\Eclipse\currency-conversion\currency-exchange-service
+2024-03-28 18:33:39,376 [Worker-33: Launching currency-exchange-service] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:build-image -DskipTests
+2024-03-28 18:40:18,376 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-03-28 18:41:32,567 [Worker-33: Launching currency-exchange-service (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Development\Eclipse\currency-conversion\currency-exchange-service
+2024-03-28 18:41:32,567 [Worker-33: Launching currency-exchange-service (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:build-image -DskipTests
+2024-03-28 18:44:14,293 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-03-28 18:44:39,503 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-03-28 18:45:21,401 [Worker-37: Launching currency-exchange-service (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Development\Eclipse\currency-conversion\currency-exchange-service
+2024-03-28 18:45:21,401 [Worker-37: Launching currency-exchange-service (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean spring-boot:build-image -DskipTests
+2024-03-28 18:45:22,335 [Worker-41: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nidhish.microservices:currency-exchange-service:0.0.1-SNAPSHOT @ D:\Development\Eclipse\currency-conversion\currency-exchange-service\pom.xml.
+2024-03-28 18:45:24,470 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 18:45:24,471 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 18:45:24,473 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-exchange-service\src\test\resources
+2024-03-28 18:46:50,849 [Worker-43: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nidhish.microservices:currency-exchange-service:0.0.1-SNAPSHOT @ D:\Development\Eclipse\currency-conversion\currency-exchange-service\pom.xml.
+2024-03-28 18:46:52,388 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 18:46:52,390 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 18:46:52,395 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-exchange-service\src\test\resources
+2024-03-28 20:31:30,292 [Worker-46: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nidhish.microservices:currency-exchange-service:0.0.1-SNAPSHOT @ D:\Development\Eclipse\currency-conversion\currency-exchange-service\pom.xml.
+2024-03-28 20:31:31,877 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 20:31:31,877 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 20:31:31,879 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-exchange-service\src\test\resources
+2024-03-28 20:31:58,248 [Worker-47: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-03-28 20:31:58,893 [Worker-47: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nidhish.microservices:currency-exchange-service:0.0.1-SNAPSHOT @ D:\Development\Eclipse\currency-conversion\currency-exchange-service\pom.xml.
+2024-03-28 20:32:00,154 [Worker-47: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /currency-exchange-service/src/main/java
+2024-03-28 20:32:00,154 [Worker-47: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /currency-exchange-service/src/main/resources
+2024-03-28 20:32:00,155 [Worker-47: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /currency-exchange-service/src/main/resources
+2024-03-28 20:32:00,157 [Worker-47: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /currency-exchange-service/src/test/java
+2024-03-28 20:32:00,876 [Worker-47: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2024-03-28 20:32:02,763 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-28 20:32:02,772 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-28 20:32:02,775 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-exchange-service\src\test\resources
+2024-03-28 20:32:11,679 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-03-28 20:32:30,003 [Worker-49: Launching currency-exchange-service (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Development\Eclipse\currency-conversion\currency-exchange-service
+2024-03-28 20:32:30,003 [Worker-49: Launching currency-exchange-service (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean spring-boot:build-image -DskipTests
+2024-03-28 20:36:50,578 [Worker-42: Launching currency-exchange-service (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Development\Eclipse\currency-conversion\currency-exchange-service
+2024-03-28 20:36:50,578 [Worker-42: Launching currency-exchange-service (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:build-image -DskipTests
+2024-03-28 20:37:13,781 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-03-28 20:37:32,076 [Worker-42: Launching currency-exchange-service (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Development\Eclipse\currency-conversion\currency-exchange-service
+2024-03-28 20:37:32,076 [Worker-42: Launching currency-exchange-service (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean spring-boot:build-image -DskipTests
+2024-03-28 20:39:13,432 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-03-28 20:41:52,341 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 20:41:52,341 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 20:41:52,344 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\api-gateway\src\test\resources
+2024-03-28 20:41:52,368 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 20:41:52,368 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 20:41:52,370 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-conversion-service\src\test\resources
+2024-03-28 20:41:52,396 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 20:41:52,396 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 20:41:52,399 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-exchange-service\src\test\resources
+2024-03-28 20:41:52,423 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 20:41:52,423 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 20:41:52,425 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\naming-server\src\test\resources
+2024-03-28 20:41:57,018 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-28 20:41:57,020 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 20:41:57,023 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\api-gateway\src\test\resources
+2024-03-28 20:41:57,887 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-28 20:41:57,889 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 20:41:57,894 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-conversion-service\src\test\resources
+2024-03-28 20:41:58,408 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-28 20:41:58,411 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-28 20:41:58,421 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-exchange-service\src\test\resources
+2024-03-28 20:41:59,052 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-28 20:41:59,054 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 20:41:59,059 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\naming-server\src\test\resources
+2024-03-28 20:42:17,221 [Worker-54: Launching currency-exchange-service (6)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Development\Eclipse\currency-conversion\currency-exchange-service
+2024-03-28 20:42:17,222 [Worker-54: Launching currency-exchange-service (6)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean spring-boot:build-image -DskipTests
+2024-03-28 21:53:50,881 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-28 21:53:51,026 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-28 21:53:51,030 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-exchange-service\src\test\resources
+2024-03-28 21:55:22,433 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 21:55:22,433 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 21:55:22,436 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\naming-server\src\test\resources
+2024-03-28 23:10:56,320 [Worker-75: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nidhish.microservices:naming-server:0.0.1-SNAPSHOT @ D:\Development\Eclipse\currency-conversion\naming-server\pom.xml.
+2024-03-28 23:10:59,341 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 23:10:59,341 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 23:10:59,345 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\naming-server\src\test\resources
+2024-03-28 23:11:01,437 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 23:11:01,437 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-28 23:11:01,439 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\naming-server\src\test\resources
+2024-03-28 23:11:42,068 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-03-28 23:12:07,206 [Worker-73: Launching naming-server] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Development\Eclipse\currency-conversion\naming-server
+2024-03-28 23:12:07,206 [Worker-73: Launching naming-server] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean spring-boot:build-image -DskipTests
+2024-03-30 09:35:04,783 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-03-30 09:57:46,609 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-03-30 09:58:36,098 [Worker-17: Launching currency-conversion-service] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Development\Eclipse\currency-conversion\currency-conversion-service
+2024-03-30 09:58:36,099 [Worker-17: Launching currency-conversion-service] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean spring-boot:build-image -DskipTests
+2024-03-30 10:02:20,507 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nidhish.microservices:currency-conversion-service:0.0.1-SNAPSHOT @ D:\Development\Eclipse\currency-conversion\currency-conversion-service\pom.xml.
+2024-03-30 10:02:22,708 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-30 10:02:22,796 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-30 10:02:22,802 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-conversion-service\src\test\resources
+2024-03-30 10:03:44,860 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-03-30 10:03:45,497 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nidhish.microservices:currency-conversion-service:0.0.1-SNAPSHOT @ D:\Development\Eclipse\currency-conversion\currency-conversion-service\pom.xml.
+2024-03-30 10:03:47,614 [Worker-24: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /currency-conversion-service/src/main/java
+2024-03-30 10:03:47,615 [Worker-24: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /currency-conversion-service/src/main/resources
+2024-03-30 10:03:47,615 [Worker-24: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /currency-conversion-service/src/main/resources
+2024-03-30 10:03:47,616 [Worker-24: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /currency-conversion-service/src/test/java
+2024-03-30 10:03:48,274 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2024-03-30 10:03:50,741 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-30 10:03:50,770 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-30 10:03:50,774 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-conversion-service\src\test\resources
+2024-03-30 10:04:58,204 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-03-30 10:05:24,206 [Worker-24: Launching currency-conversion-service (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Development\Eclipse\currency-conversion\currency-conversion-service
+2024-03-30 10:05:24,206 [Worker-24: Launching currency-conversion-service (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean spring-boot:build-image -DskipTests
+2024-03-30 13:21:16,700 [Worker-36: Launching currency-conversion-service (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Development\Eclipse\currency-conversion\currency-conversion-service
+2024-03-30 13:21:16,732 [Worker-36: Launching currency-conversion-service (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean spring-boot:build-image -DskipTests
+2024-03-30 13:21:18,988 [Worker-35: Launching currency-conversion-service (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Development\Eclipse\currency-conversion\currency-conversion-service
+2024-03-30 13:21:18,988 [Worker-35: Launching currency-conversion-service (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean spring-boot:build-image -DskipTests
+2024-03-30 13:52:28,812 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-30 13:52:28,995 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-30 13:52:29,000 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-exchange-service\src\test\resources
+2024-03-30 13:52:41,558 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-03-30 13:53:10,020 [Worker-44: Launching currency-conversion-service (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Development\Eclipse\currency-conversion\currency-conversion-service
+2024-03-30 13:53:10,021 [Worker-44: Launching currency-conversion-service (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean spring-boot:build-image -DskipTests
+2024-03-30 16:47:49,716 [Worker-54: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nidhish.microservices:api-gateway:0.0.1-SNAPSHOT @ D:\Development\Eclipse\currency-conversion\api-gateway\pom.xml.
+2024-03-30 16:47:53,417 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-30 16:47:53,765 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-30 16:47:53,769 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\api-gateway\src\test\resources
+2024-03-30 16:48:13,158 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-03-30 16:48:25,944 [Worker-49: Launching api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Development\Eclipse\currency-conversion\api-gateway
+2024-03-30 16:48:25,945 [Worker-49: Launching api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean spring-boot:build-image -DskipTests
+2024-03-30 16:58:12,163 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-30 16:58:12,215 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-30 16:58:12,226 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-conversion-service\src\test\resources
+2024-03-30 16:58:19,920 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-03-30 16:58:43,266 [Worker-58: Launching currency-conversion-service (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Development\Eclipse\currency-conversion\currency-conversion-service
+2024-03-30 16:58:43,266 [Worker-58: Launching currency-conversion-service (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean spring-boot:build-image -DskipTests
+2024-03-30 19:20:01,144 [Worker-64: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nidhish.microservices:currency-conversion-service:0.0.1-SNAPSHOT @ D:\Development\Eclipse\currency-conversion\currency-conversion-service\pom.xml.
+2024-03-30 19:20:03,986 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-30 19:20:03,986 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-30 19:20:03,990 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-conversion-service\src\test\resources
+2024-03-30 19:20:08,497 [Worker-61: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing-bridge-brave/1.2.3/micrometer-tracing-bridge-brave-1.2.3-sources.jar
+2024-03-30 19:20:08,522 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-30 19:20:08,529 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-30 19:20:08,531 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-conversion-service\src\test\resources
+2024-03-30 19:20:08,631 [Worker-61: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing-bridge-brave/1.2.3/micrometer-tracing-bridge-brave-1.2.3-sources.jar
+2024-03-30 19:20:09,394 [Worker-61: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.micrometer:micrometer-tracing-bridge-brave:1.2.3
+2024-03-30 19:20:09,564 [Worker-61: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave/5.16.0/brave-5.16.0-sources.jar
+2024-03-30 19:20:09,772 [Worker-61: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave/5.16.0/brave-5.16.0-sources.jar
+2024-03-30 19:20:10,308 [Worker-61: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave:5.16.0
+2024-03-30 19:20:10,517 [Worker-61: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-slf4j/5.16.0/brave-context-slf4j-5.16.0-sources.jar
+2024-03-30 19:20:10,655 [Worker-61: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-slf4j/5.16.0/brave-context-slf4j-5.16.0-sources.jar
+2024-03-30 19:20:10,867 [Worker-61: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-context-slf4j:5.16.0
+2024-03-30 19:20:11,035 [Worker-61: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-http/5.16.0/brave-instrumentation-http-5.16.0-sources.jar
+2024-03-30 19:20:11,184 [Worker-61: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-http/5.16.0/brave-instrumentation-http-5.16.0-sources.jar
+2024-03-30 19:20:11,433 [Worker-61: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-http:5.16.0
+2024-03-30 19:20:11,609 [Worker-61: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/aws/brave-propagation-aws/0.23.5/brave-propagation-aws-0.23.5-sources.jar
+2024-03-30 19:20:11,753 [Worker-61: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/aws/brave-propagation-aws/0.23.5/brave-propagation-aws-0.23.5-sources.jar
+2024-03-30 19:20:12,127 [Worker-61: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.aws:brave-propagation-aws:0.23.5
+2024-03-30 19:20:12,300 [Worker-61: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-brave/2.16.3/zipkin-reporter-brave-2.16.3-sources.jar
+2024-03-30 19:20:12,395 [Worker-61: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-brave/2.16.3/zipkin-reporter-brave-2.16.3-sources.jar
+2024-03-30 19:20:12,704 [Worker-61: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.reporter2:zipkin-reporter-brave:2.16.3
+2024-03-30 19:20:13,728 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-30 19:20:13,729 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-30 19:20:13,731 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-conversion-service\src\test\resources
+2024-03-30 19:20:52,587 [Worker-64: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nidhish.microservices:currency-exchange-service:0.0.1-SNAPSHOT @ D:\Development\Eclipse\currency-conversion\currency-exchange-service\pom.xml.
+2024-03-30 19:20:54,479 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-30 19:20:54,479 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-30 19:20:54,482 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-exchange-service\src\test\resources
+2024-03-30 19:20:56,993 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-30 19:20:56,996 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-30 19:20:57,001 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-exchange-service\src\test\resources
+2024-03-30 19:21:32,556 [Worker-66: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nidhish.microservices:api-gateway:0.0.1-SNAPSHOT @ D:\Development\Eclipse\currency-conversion\api-gateway\pom.xml.
+2024-03-30 19:21:34,337 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-30 19:21:34,337 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-30 19:21:34,340 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\api-gateway\src\test\resources
+2024-03-30 19:21:37,019 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-30 19:21:37,022 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-30 19:21:37,028 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\api-gateway\src\test\resources
+2024-03-30 19:26:34,833 [Worker-66: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nidhish.microservices:currency-conversion-service:0.0.1-SNAPSHOT @ D:\Development\Eclipse\currency-conversion\currency-conversion-service\pom.xml.
+2024-03-30 19:26:36,170 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-30 19:26:36,170 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-30 19:26:36,171 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-conversion-service\src\test\resources
+2024-03-30 19:26:39,415 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-30 19:26:39,420 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-30 19:26:39,428 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-conversion-service\src\test\resources
+2024-03-30 19:26:50,921 [Worker-67: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nidhish.microservices:currency-exchange-service:0.0.1-SNAPSHOT @ D:\Development\Eclipse\currency-conversion\currency-exchange-service\pom.xml.
+2024-03-30 19:26:52,342 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-30 19:26:52,342 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-30 19:26:52,345 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-exchange-service\src\test\resources
+2024-03-30 19:26:54,694 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-30 19:26:54,696 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-30 19:26:54,701 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-exchange-service\src\test\resources
+2024-03-30 19:28:02,189 [Worker-56: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nidhish.microservices:currency-exchange-service:0.0.1-SNAPSHOT @ D:\Development\Eclipse\currency-conversion\currency-exchange-service\pom.xml.
+2024-03-30 19:28:03,443 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-30 19:28:03,443 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-30 19:28:03,446 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-exchange-service\src\test\resources
+2024-03-30 19:28:05,604 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-30 19:28:05,606 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-30 19:28:05,609 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-exchange-service\src\test\resources
+2024-03-30 19:35:03,469 [Worker-69: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nidhish.microservices:currency-exchange-service:0.0.1-SNAPSHOT @ D:\Development\Eclipse\currency-conversion\currency-exchange-service\pom.xml.
+2024-03-30 19:35:05,032 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-30 19:35:05,033 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-30 19:35:05,034 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-exchange-service\src\test\resources
+2024-03-30 19:35:23,140 [Worker-56: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nidhish.microservices:currency-conversion-service:0.0.1-SNAPSHOT @ D:\Development\Eclipse\currency-conversion\currency-conversion-service\pom.xml.
+2024-03-30 19:35:24,253 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-30 19:35:24,253 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-30 19:35:24,254 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-conversion-service\src\test\resources
+2024-03-30 19:35:26,378 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-30 19:35:26,380 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-30 19:35:26,382 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\currency-conversion-service\src\test\resources
+2024-03-30 19:35:56,602 [Worker-71: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nidhish.microservices:api-gateway:0.0.1-SNAPSHOT @ D:\Development\Eclipse\currency-conversion\api-gateway\pom.xml.
+2024-03-30 19:35:57,755 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-30 19:35:57,756 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-30 19:35:57,757 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\api-gateway\src\test\resources
+2024-03-30 19:36:00,351 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-30 19:36:00,353 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-30 19:36:00,354 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\api-gateway\src\test\resources
+2024-03-30 19:41:59,226 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-03-30 19:42:12,913 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-03-30 19:42:39,910 [Worker-69: Launching api-gateway (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Development\Eclipse\currency-conversion\api-gateway
+2024-03-30 19:42:39,910 [Worker-69: Launching api-gateway (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean spring-boot:build-image -DskipTests
+2024-03-30 19:43:37,855 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-03-30 19:43:44,126 [Worker-70: Launching currency-conversion-service (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Development\Eclipse\currency-conversion\currency-conversion-service
+2024-03-30 19:43:44,126 [Worker-70: Launching currency-conversion-service (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean spring-boot:build-image -DskipTests
+2024-03-30 19:45:29,444 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-03-30 19:45:37,092 [Worker-56: Launching currency-exchange-service (7)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Development\Eclipse\currency-conversion\currency-exchange-service
+2024-03-30 19:45:37,092 [Worker-56: Launching currency-exchange-service (7)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean spring-boot:build-image -DskipTests
+2024-03-30 19:46:53,433 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-03-30 19:47:00,716 [Worker-71: Launching naming-server (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Development\Eclipse\currency-conversion\naming-server
+2024-03-30 19:47:00,716 [Worker-71: Launching naming-server (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean spring-boot:build-image -DskipTests
+2024-03-30 21:48:28,518 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-03-30 21:48:39,732 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-30 21:48:39,990 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-30 21:48:39,999 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\api-gateway\src\test\resources
+2024-03-30 22:05:29,016 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-03-30 22:05:29,925 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nidhish.microservices:api-gateway:0.0.1-SNAPSHOT @ D:\Development\Eclipse\currency-conversion\api-gateway\pom.xml.
+2024-03-30 22:05:31,998 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/main/java
+2024-03-30 22:05:31,998 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2024-03-30 22:05:31,999 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2024-03-30 22:05:32,000 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/test/java
+2024-03-30 22:05:32,609 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2024-03-30 22:05:35,157 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-30 22:05:35,219 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-30 22:05:35,223 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Development\Eclipse\currency-conversion\api-gateway\src\test\resources
+2024-03-31 15:22:05,402 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
